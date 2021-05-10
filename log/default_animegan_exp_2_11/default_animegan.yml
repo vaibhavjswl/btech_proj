@@ -42,7 +42,7 @@ train:
     tpu: null
     strategy: Mirrored
   augmenter: true
-  batch_size: 2
+  batch_size: 8
   pre_ckpt: log/default_animegan_warmup_exp/final_save
   rand_seed: 10101
   epochs: 60
